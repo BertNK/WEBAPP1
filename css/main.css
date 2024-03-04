@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #00050D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Landingpage */
+/* Nav */
+nav{
+    height: 20vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.logoblok{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoblokimg{
+    width: 200px;
+}
+.dropdownblok{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dropdowntekst{
+    font-size: 28px;
+    color: white;
+    background: transparent;
+}
+.signin_nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.signin_navspace{
+    width: 70%;
+    height: 100%;
+}
+.signin_blok{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}        
+.settings{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signintekst{
+    color: white;
+    font-size: 28px;
+    background-color: #1A1A1A;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+}
+.signintekst:hover{background-color: white; color: #0079c4; cursor: pointer;}
+.dropdowntekst:hover{color: #0079c4; cursor: pointer;}
+/* Header */
+header{
+    width: 99vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.headerbox1{
+    height: 90%;
+    width: 60%;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 35px;
+}
+.headerimg1{
+    width: 500px;
+    border-radius: 35px;
+    margin-left: 25px;
+}
+
+.headerbox2{
+    height: 90%;
+    width: 30%;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 35px;
+}
+.headerimg2{
+    width: 300px;
+    border-radius: 35px;
+}
+/* !!!! */
+/* Body */
+/* !!!! */
+.container1{
+    height: 100vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.movierow1{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.left{
+    width: 95px;
+    background: transparent;
+}
+.right{
+    width: 95px;
+    background: transparent;
+}
+.movie{
+    width: 195px;
+    height: 80%;
+    background-color: #1A1A1A;
+    border-radius: 15px;
+}
+.movierow2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.container2{
+    height: 100vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Sign Up Page */
+.signupcontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupblok{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 100px;
+    background-color: #1A1A1A;
+}
+.resulttekst1{
+    font-size: 60px;
+    color: white;
+    background: none;
+}
+.resulttekst2{
+    font-size: 40px;
+    color: white;
+    background: none;
+}
+.signup_form{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+    background: none;
+}
+.register_tekst{
+    font-size: 40px;
+    color: white;
+    background: none;
+    padding: 15px;
+}
+.signup_row{
+    height: 50px;
+    width: 80%;
+    margin-top: 15px;
+    background-color: #3a3a3a;
+    border-radius: 20px;
+}
+/* Footer */
