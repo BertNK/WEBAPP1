@@ -163,7 +163,7 @@ header{
     justify-content: center;
     flex-direction: column;
 }
-/* Sign Up Page */
+/* Sign Up Page & Dashboard etc...*/
 .signupcontainer{
     width: 100vw;
     height: 100vh;
@@ -182,12 +182,12 @@ header{
     background-color: #1A1A1A;
 }
 .resulttekst1{
-    font-size: 60px;
+    font-size: 40px;
     color: white;
     background: none;
 }
 .resulttekst2{
-    font-size: 40px;
+    font-size: 25px;
     color: white;
     background: none;
 }
@@ -206,11 +206,64 @@ header{
     background: none;
     padding: 15px;
 }
-.signup_row{
+.signin_row{
     height: 50px;
     width: 80%;
     margin-top: 15px;
     background-color: #3a3a3a;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rowtekst{
+    font-size: 15px;
+    color: white;
+    background: none;
+    padding: 30px;
+}
+.rowinput{
+    width: 25vw;
+    height: 4vh;
+    font-size: 15px;
+    color: white;
+    background: #3a3a3a;
+}
+.rowcheckbox{
+    height: 20px;
+    width: 20px;
+}
+.rowsubmit{
+    width: 32vw;
+    height: 4vh;
+    margin-left: 30px;
+    font-size: 15px;
+    color: white;
+    background: #3a3a3a;
+}
+.gobackdash{
+    color: white;
+    font-size: 28px;
+    background-color: #1A1A1A;
+    padding: 15px;
+    border-radius: 50px;
+    width: 900px;
+    cursor: pointer;
+    border: 0;
+}
+.dashcontainer{
+    height: 80vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dashblok{
+    height: 99%;
+    width: 95%;
+    background-color: #1A1A1A;
+    border-radius: 100px;
+    display: flex;
 }
 /* Footer */
