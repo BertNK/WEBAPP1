@@ -57,7 +57,7 @@ nav{
     align-items: center;
     flex-direction: row;
     justify-content: center;
-}        
+}
 .settings{
     width: 25%;
     height: 100%;
@@ -89,13 +89,15 @@ header{
     height: 90%;
     width: 60%;
     background-color: #1A1A1A;
+    background: none;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     border-radius: 35px;
 }
 .headerimg1{
-    width: 500px;
+    width: 900px;
     border-radius: 35px;
     margin-left: 25px;
 }
@@ -121,9 +123,10 @@ header{
     height: 100vh;
     width: 99vw;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 .movierow1{
     height: 50vh;
@@ -132,6 +135,12 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+.movierowtekst{
+  font-size: 24px;
+  color: white;
+  background: none;
+  padding-left: 130px;
 }
 .left{
     width: 95px;
@@ -156,12 +165,12 @@ header{
     justify-content: space-around;
 }
 .container2{
-    height: 100vh;
-    width: 99vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  height: 100vh;
+  width: 99vw;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
 }
 /* Sign Up Page & Dashboard etc...*/
 .signupcontainer{
@@ -232,6 +241,7 @@ header{
 .rowcheckbox{
     height: 20px;
     width: 20px;
+    background: transparent;
 }
 .rowsubmit{
     width: 32vw;
