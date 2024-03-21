@@ -312,12 +312,27 @@ header{
     height: 90%;
     background-color: #3a3a3a;
     border-radius: 50px;
-    justify-content: center;
+    justify-content: baseline;
+    flex-direction: column;
+    display: flex;
 }
 .movieblok2{
     width: 60%;
     height: 90%;
     background-color: #3a3a3a;
     border-radius: 50px;
+}
+.movietitletekst{
+    font-size: 35px;
+    color: white;
+    background: none;
+    padding: 55px;
+}
+.moviedescriptiontekst{
+    font-size: 25px;
+    color: white;
+    background: none;
+    margin-left: 55px;
+    width: 75%;
 }
 /* Footer */

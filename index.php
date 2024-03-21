@@ -1,3 +1,7 @@
+<?php
+    include("pages/com.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +19,7 @@
             <img src="assets/moviewave.png" class="logoblokimg">
         </a>
         <div class="dropdownblok">
-            <a class="dropdowntekst" href="#1">Home</a>
+            <a class="dropdowntekst">Home</a>
             <a class="dropdowntekst">Store</a>
             <a class="dropdowntekst">Catagories</a>
         </div>
@@ -34,9 +38,21 @@
       <a href="movies/movie.php" class="headerbox1">
             <img src="assets/duneparttwo.webp" class="headerimg1">
       </a>
-        <a class="headerbox2" href="#">
+        <a class="headerbox2">
             <img src="assets/placeholder.jpg" class="headerimg2">
         </a>
+
+        <?php
+        $stmt = $connection->query("SELECT * FROM user WHERE id = 1");
+        $user = $stmt->fetch();
+
+        echo $user['username'];
+        echo "<br>";
+
+        while ($row = $stmt->fetch()) {
+            echo $row["username"] ."<br />\n";
+        }
+        ?>
     </header>
     <!-- Body -->
     <div class="container1">
